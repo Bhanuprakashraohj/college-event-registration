@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Success - College Event Registration</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-calendar-alt"></i> College Event Registration
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="event_list.html">View Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin_login.html">Admin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card border-success shadow-lg">
+                    <div class="card-body text-center py-5">
+                        <div class="mb-4">
+                            <i class="fas fa-check-circle" style="font-size: 80px; color: #28a745;"></i>
+                        </div>
+                        
+                        <h1 class="card-title text-success mb-3">Registration Successful!</h1>
+                        
+                        <p class="card-text lead mb-4 text-muted">
+                            Your event registration has been confirmed. You will receive a confirmation email shortly.
+                        </p>
+
+                        <div class="alert alert-info" role="alert">
+                            <h5>Registration Details</h5>
+                            <hr>
+                            <div class="text-start">
+                                <p><strong>Student Name:</strong> <span id="successName"></span></p>
+                                <p><strong>USN:</strong> <span id="successUSN"></span></p>
+                                <p><strong>Email:</strong> <span id="successEmail"></span></p>
+                                <p><strong>Events Registered:</strong> <span id="successEvents"></span></p>
+                                <p><strong>Registration Date:</strong> <span id="successDate"></span></p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-2 justify-content-center">
+                            <a href="index.html" class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Register Another Event
+                            </a>
+                            <a href="event_list.html" class="btn btn-outline-primary">
+                                <i class="fas fa-list"></i> View All Events
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="fas fa-info-circle"></i> Important Information</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success"></i> 
+                                A confirmation email has been sent to your registered email address
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success"></i>
+                                Please bring your ID card on the day of the event
+                            </li>
+                            <li class="mb-2">
+                                <i class="fas fa-check text-success"></i>
+                                Event details and venue information will be shared via email
+                            </li>
+                            <li>
+                                <i class="fas fa-check text-success"></i>
+                                You can register for multiple events using this form
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2026 College Event Registration System. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/success.js"></script>
+</body>
+</html>
