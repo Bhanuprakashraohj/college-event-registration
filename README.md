@@ -348,23 +348,7 @@ To contribute to this project:
 3. Push to the branch (`git push origin feature/AmazingFeature`)
 4. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Support
-
-For support and queries, please contact the development team or create an issue in the repository.
-
-## 🎓 Educational Purpose
-
-This system is designed as an educational project to demonstrate:
-- 3-Tier Architecture implementation
-- RESTful API design
-- Database design and normalization
-- Frontend-Backend integration
-- Security best practices
-- MVC pattern implementation
 
 ---
 
